@@ -29,12 +29,8 @@ const style = {
 };
 
 const Cars = (props) => {
-<<<<<<< HEAD
-    const paratest="De la berline élégante parfaite pour les voyages d'affaires aux SUV spacieux prêts à accompagner vos vacances en famille. Explorez notre collection et trouvez votre compagnon de voyage idéal pour faire en sorte que chaque instant sur la route devienne un souvenir inoubliable"
-=======
-     const paratest="De la berline élégante parfaite pour les voyages d'affaires aux SUV spacieux prêts à accompagner vos vacances en famille. Explorez notre collection et trouvez votre compagnon de voyage idéal pour faire en sorte que chaque instant sur la route devienne un souvenir inoubliable"
-  
->>>>>>> 046133afd25f03fe433c76b23435c691dc9f43ea
+ const paratest="De la berline élégante parfaite pour les voyages d'affaires aux SUV spacieux prêts à accompagner vos vacances en famille. Explorez notre collection et trouvez votre compagnon de voyage idéal pour faire en sorte que chaque instant sur la route devienne un souvenir inoubliable"
+
     const [validationame,setvalidationame]=useState(true)
     const [validationdate1,setvalidationdate1]=useState(false)
     const [validationphone,setvalidationphone]=useState(true)
