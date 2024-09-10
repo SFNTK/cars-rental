@@ -1,0 +1,254 @@
+#contact {
+    width: 100%;
+}
+
+#herocontact {
+    width: 100%;
+    height: 60vh;
+    background-image: url(/background3.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+
+
+#h2contact {
+    z-index: 8;
+}
+
+
+
+
+
+
+
+
+#contactsection {
+    background-color: var(--ceanblue);
+    display: flex;
+    width: 100%;
+    align-items: center;
+margin-top: 30px;
+}
+
+#contactsection h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    width: 100%;
+
+}
+
+#backcpntact {
+    width: 50%;
+    height: auto;
+    align-self: center;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+#contactcontainer {
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+
+.group {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    position: relative;
+    width: 70%;
+}
+
+.input {
+    width: 100%;
+    height: 45px;
+    line-height: 30px;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    color: #0d0c22;
+    transition: .5s ease;
+}
+
+.input::placeholder {
+    color: #94a3b8;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: #004643;
+    background-color: #fff;
+
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: none;
+    width: 1rem;
+    height: 1rem;
+}
+#contactbtn{
+    background-color: transparent;
+    color: #f8fafc;
+    border:  var(--dark-color)  solid .5px;
+    width: 70%;
+    padding: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#contactbtn:hover{
+    transform: scale(1.1);
+    transition: all .6s ease-in-out ;
+}
+@media (max-width:992px){
+   
+}
+@media (max-width:1023px){
+    #contactsection{
+        flex-direction: column;
+        
+    }   
+    #backcpntact{
+        width: 100%;
+    }
+    #contactcontainer{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        margin-left: 0%;
+    }
+}
+
+
+
+
+#h2contact {
+    position: relative;
+    z-index: 2;
+    color: var(--ceanblue);
+    font-family: var(--primary-font); /* Text color */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#contactover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-color);
+    opacity: .8; /* Overlay color and opacity */
+    z-index: 1;
+}
+
+
+
+
+.contact-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.cardcntc {
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardcntc img {
+    width:  50px;
+   
+    margin-bottom: 10px;
+}
+
+.cardcntc a {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    z-index: 2;
+}
+
+.cardcntc p {
+    font-size: 16px;
+    color: #777;
+}
+
+.cardcntc:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.cardcntc:hover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: var(--ceanblue);
+    opacity: .4;
+    transform: rotate(45deg);
+    z-index: 0;
+    animation: rotatebg 3s linear infinite;
+}
+
+
+
+@keyframes rotatebg {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+
+@media (max-width:1023px){
+    .contact-cards{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}

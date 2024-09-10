@@ -1,0 +1,191 @@
+.car2{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 10px;
+  padding: 1%;
+  }
+  .carimage2{
+      width: 80%;
+      height: 40%;
+      align-self: center;
+  }
+  #carddisplay2{
+      display: flex;
+      width: 100%;
+  }
+  #carddisplay2 div{
+      width: 25%;
+      border: solid black 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 5px;
+  }
+  #carddisplay2 div img{
+      width: 20%;
+      height: auto;
+  }
+  .car2 span:first-of-type{
+      color: var(--dark-color);
+     
+      font-weight: bold;
+  
+  }
+  .car2 p{
+      font-size: 1.4rem;font-weight: bolder;
+      color: var(--ceanblue);
+  }
+  .car2 span:nth-of-type(3){
+      color: var(--dark-color);
+  
+  }
+  .carsbtn2{
+      width: 100%;
+      background-color: var(--ceanblue);
+      padding: 2%;
+      text-align: center;
+      border-radius: 10px;
+      margin-top: 5%;
+      transition: all .5s ease-in-out;
+      cursor: pointer;
+  }
+  .car2 span:nth-of-type(2){
+      color: var(--ceanblue);
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .carsbtn2:hover{
+      background-color: var(--dark-color);
+      color: #00cffb;
+      transform: translateY(-2%);
+  }
+  #carscontainer2{
+      display: flex;
+      column-gap: 5%;
+      row-gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+  }
+  #containermodal{
+      display: flex;
+      width: 70vw;
+      justify-content: space-around;
+    
+  }
+  #containermodal form{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+  }
+  #carimg{
+      width: 30%;
+  height: auto;
+  align-self: center;
+}
+  #btnmodal{
+      width: 50%;
+      padding: 2%;
+      background-color: var(--ceanblue);
+      text-align: center;
+      border-radius: 20px;
+      margin-top: 20px;
+  }
+  #circul{
+      width: 100%;
+      height: 100%;
+
+     
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    
+  }
+  #overlay2{
+      width: 100%;
+      height: 100%;
+      background-color: var(--ceanblue);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .6;
+      z-index: 9;
+  }
+  #circular{
+      z-index: 10;
+   opacity: 1;
+      
+  }
+  /*inputs*/
+  /* From Uiverse.io by kamehame-ha */ 
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+width: 100%;  }
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  color: var(--ceanblue);
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: white;
+  width: fit-content;
+}
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px var(--ceanblue) solid;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+@media (max-width:992px){
+ 
+}
+@media (max-width:1023px){
+#carscontainer2{
+  flex-direction: column;
+  align-items: center;
+}
+.car2{
+  width: 80%;
+}
+#btnmodal{
+  width: 100%;
+}
+#containermodal{
+  flex-direction: column;
+
+align-items: center;}
+#carimg{
+  width: 70%;
+}
+#containermodal form{
+  width: 90%;
+  
+}
+#containermodal{
+  width: 90vw;
+}
+}  

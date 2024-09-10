@@ -1,0 +1,120 @@
+#navcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   font-family: var(--fontprimary);
+ 
+    
+}
+#navcontainer div:first-of-type{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px; 
+    background-color: #0092b1;
+    color: white;
+   
+}
+#navcontainer div:first-of-type img{
+    width: 20px;
+    height: 20px;
+}
+#navcontainer div:first-of-type a:nth-of-type(3){
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#nav{
+    display: flex;
+    column-gap:35%;
+    padding: 0 2%;
+    
+}
+#nav img:first-of-type{
+    width: 10%;
+    height: auto;
+}
+#nav ul{
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    column-gap: 5%;
+    font-size: 1.2rem;
+   
+
+}
+#nav ul li{
+    transition: all .4s ease-in-out ;
+}
+#nav ul li:hover{
+    color: #0092b1;
+    border-bottom: 2px solid #2c3e50;
+
+}
+#burger{
+    width: 5%;
+    height: auto;
+    display: none;
+}
+#navphone{
+    transform: scaleY(0);
+    transition:  transform 1s;
+    transform-origin: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0092b1;
+    color: white;
+    z-index: 999;
+
+}
+#navphone img:first-of-type{
+    width: 10%;
+    height: auto;
+    transition: all 2s ease-in-out ;
+    margin-top: 2%;
+    margin-left: 86%;
+
+}
+#navphone img:first-of-type:hover{
+    transform: rotate(360deg);
+}
+#navphone ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 25%;
+    row-gap: 5px;
+}
+#navphone li{
+    padding: 2%;
+    text-align: center;
+    background-color: #2c3e50;
+}
+@media (max-width:992px){
+   
+}
+@media (max-width:1023px){
+    #nav ul{
+        display: none;
+    }
+    #burger{
+        display: flex;
+        width: 10%;
+    }
+    #nav{
+        justify-content: space-between;
+    }
+    #nav img:first-of-type{
+        width: 15%;
+       
+    }
+}
