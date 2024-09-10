@@ -29,6 +29,8 @@ const style = {
 };
 
 const Cars = (props) => {
+     const paratest="De la berline élégante parfaite pour les voyages d'affaires aux SUV spacieux prêts à accompagner vos vacances en famille. Explorez notre collection et trouvez votre compagnon de voyage idéal pour faire en sorte que chaque instant sur la route devienne un souvenir inoubliable"
+  
     const [validationame,setvalidationame]=useState(true)
     const [validationdate1,setvalidationdate1]=useState(false)
     const [validationphone,setvalidationphone]=useState(true)
@@ -90,8 +92,7 @@ const Cars = (props) => {
       <div id='carscontainer'>
         <span id='span1'>Nos voitures</span>
         <span id='span2'>Trouvons votre voiture</span>
-        <p id='carspara'>De la berline élégante parfaite pour les voyages d'affaires aux SUV spacieux prêts à accompagner vos vacances en famille. Explorez notre collection et trouvez votre compagnon de voyage idéal pour
-        faire en sorte que chaque instant sur la route devienne un souvenir inoubliable.</p>
+        <p id='carspara'>{paratest}.</p>
           <div id='cars'>
       {contenu}
             
