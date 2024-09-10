@@ -26,7 +26,7 @@ const Marques = () => {
 
     },{
         name:"Range",
-        image:"./range.png"
+        image:"./range2.png"
 
     },];
 
