@@ -21,8 +21,9 @@ export default function Home() {
   <Comment/>
   <Cars router={router}/>
   <Why/>
-  <Quality router={router}/>
+  
   <Final router={router}/>
+  <Quality router={router}/>
 
   </>
   );

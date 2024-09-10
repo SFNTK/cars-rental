@@ -51,7 +51,7 @@ tls2.fromTo("#hero .char",{
            <p>Louez la voiture parfaite en quelques clics et prenez la route en toute sérénité avec nos offres flexibles et abordables, adaptées à tous vos besoins.</p>
 <div id='heribtn' onClick={()=>{
     router.push('/cars', { scroll: false })
-}}>Faire Une Reservation</div>
+}}>RESERVER MAINTENANT</div>
           </div>
           <div id='overlay'></div>
             

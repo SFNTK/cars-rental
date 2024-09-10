@@ -28,9 +28,9 @@ const Nav = () => {
     },[])
     return (
         <div id='navcontainer'>
-            <div >
-                <a href='https://www.facebook.com/profile.php?id=100093431059884'><img src='./facebook.png' /></a>
-                <a href='mailto:Saidakourida@gmail.com'><img src='./footermail.png' /></a>
+            <div id='headertop'>
+                <a href='https://www.facebook.com/profile.php?id=100093431059884'><img src='./facebook.png' />Facebook</a>
+                <a href='mailto:Saidakourida@gmail.com'><img src='./footermail.png' />Saidakourida@gmail.com</a>
                 <a href='tel:+212661222330'><img src='./footerphone.png' /> 0661-222330</a>
             </div>
 

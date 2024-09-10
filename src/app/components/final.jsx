@@ -9,7 +9,7 @@ const Final = (props) => {
     gsap.registerPlugin(ScrollTrigger);
     useEffect(()=>{
        if(window.innerWidth>1024){
-        const tls2 = gsap.timeline({
+        const tls22 = gsap.timeline({
             scrollTrigger: {
                 trigger: "#bluecar",
                 start: "top 0%",
@@ -19,7 +19,7 @@ const Final = (props) => {
 
             }
         });
-        const tls3 = gsap.timeline({
+        const tls33 = gsap.timeline({
             scrollTrigger: {
                 trigger: "#txtfinal",
                 start: "top 0%",
@@ -29,7 +29,7 @@ const Final = (props) => {
 
             }
         });
-        tls2.fromTo("#bluecar",{
+        tls22.fromTo("#bluecar",{
             x:"40%"
         },{
            x:"28%",
@@ -37,7 +37,7 @@ const Final = (props) => {
             ease:"power1.inOut",
       
         },"animcar")
-        tls3.fromTo("#txtfinal",{
+        tls33.fromTo("#txtfinal",{
             x:-10,opacity:0
         },{x:0,opacity:1,duration:10,  ease:"power1.inOut"},"animcar")
        }

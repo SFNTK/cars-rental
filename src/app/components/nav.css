@@ -7,6 +7,11 @@
  
     
 }
+#headertop a{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
 #navcontainer div:first-of-type{
     width: 100%;
     display: flex;
@@ -14,7 +19,8 @@
     padding:10px; 
     background-color: #0092b1;
     color: white;
-   
+   flex-wrap: wrap;
+   row-gap: 10px;
 }
 #navcontainer div:first-of-type img{
     width: 20px;

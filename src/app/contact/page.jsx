@@ -26,25 +26,7 @@ const Contact = () => {
                 <h2 id='h2contact'>CONTACTEZ NOUS</h2>
 <div id='contactover'></div>
             </div>
-            <div class="contact-cards">
-    <div class="cardcntc">
-        <img class="fa" src='./facebook9.png'/>
-        <a href="https://www.facebook.com/profile.php?id=100093431059884">Click Here</a>
-        <p>Facebook</p>
-    </div>
-
-    <div class="cardcntc">
-        <img class="fa" src='./mail.png'/>
-        <h3>Saidakourida@gmail.com</h3>
-        <p>Email</p>
-    </div>
-
-    <div class="cardcntc">
-        <img class="fa" src='./phone-call(2).png'/>
-        <h3>0661-222330</h3>
-        <p>Phone Number</p>
-    </div>
-</div>
+          
 
             <div id='contactsection'>
             <img src='./rental.jpg' id='backcpntact' />
@@ -66,8 +48,8 @@ const Contact = () => {
                         <input className="input" type="text" placeholder="ENTER YOUR EMAIL" />
                     </div>
                     <div className="group">
-                       <img src='./writing.png' className='icon'/>
-                        <textarea className="input"  placeholder="Your Message" />
+                       <img src='./writing.png' className='icon2'/>
+                        <textarea className="inputarea"  placeholder="Your Message"  rows="2"/>
                     </div>
                     <div id="contactbtn" onClick={handleClick}>
                         ENVOYER
@@ -77,6 +59,25 @@ const Contact = () => {
 
             </div>
         </div>
+        <div class="contact-cards">
+    <div class="cardcntc">
+        <img class="fa" src='./facebook9.png'/>
+        <a href="https://www.facebook.com/profile.php?id=100093431059884">Click Here</a>
+        <p>Facebook</p>
+    </div>
+
+    <div class="cardcntc">
+        <img class="fa" src='./mail.png'/>
+        <h3>Saidakourida@gmail.com</h3>
+        <p>Email</p>
+    </div>
+
+    <div class="cardcntc">
+        <img class="fa" src='./phone-call(2).png'/>
+        <h3>0661-222330</h3>
+        <p>Phone Number</p>
+    </div>
+</div>
         <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert
           onClose={handleClose}

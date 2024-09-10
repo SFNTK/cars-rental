@@ -40,9 +40,8 @@
     font-weight: bold;
     text-align: center;
     color: var(--dark-color);
-    align-self: center;
-
-    padding: 4%;
+    
+    padding: 2%;
     background-color: var(--light-color);
     border-radius: 10px;
     cursor: pointer;
@@ -85,6 +84,9 @@
         width: 90%;
      
     margin-left: 5%;
+    }
+    #herotxt p{
+        display: none;
     }
     #heribtn{
         width: 70%;
