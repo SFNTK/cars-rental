@@ -11,8 +11,8 @@ const Final = (props) => {
        if(window.innerWidth>1024){
         const tls22 = gsap.timeline({
             scrollTrigger: {
-                trigger: "#bluecar",
-                start: "top 0%",
+                trigger: "#final",
+                start: "top 50%",
                 end: "top -50%",
                 toggleActions: "play none none reverse",
                 scrub:true
@@ -21,8 +21,8 @@ const Final = (props) => {
         });
         const tls33 = gsap.timeline({
             scrollTrigger: {
-                trigger: "#txtfinal",
-                start: "top 0%",
+                trigger: "#final",
+                start: "top 50%",
                 end: "top -50%",
                 toggleActions: "play none none reverse",
                 scrub:true
