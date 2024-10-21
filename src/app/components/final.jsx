@@ -37,10 +37,7 @@ const Final = (props) => {
             ease:"power1.inOut",
       
         },"animcar")
-        tls33.fromTo("#txtfinal",{
-            x:-10,opacity:0
-        },{x:0,opacity:1,duration:10,  ease:"power1.inOut"},"animcar")
-       }
+     
     },[])
     return (
         <div id='final'>
